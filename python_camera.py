@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-url = "https://192.168.0.100:8080/video" #ip adress from ip web cam
+url = "ip_adress/video" #ip adress from ip web cam
 cp = cv2.VideoCapture(url)
 while(True):
     camera, frame = cp.read()
